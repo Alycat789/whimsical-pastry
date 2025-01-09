@@ -1,0 +1,17 @@
+Brainstorming!
+
+GUI:
+    main menu window will take you to a separate window: saved card or the creation menu
+
+Creation Interface:
+    enter list of attainable yet whimsical new year goals
+        -provide a list of goals to use if the user is not creative
+        -if the goals don't fill out whatever size grid is created either prompt the user to enter x number more, or add in x number placeholder goals.
+    choose color theme?
+    show a mock up of options as they are selected
+    
+Saved Card:
+    square of (5 or 7) row/col boxes (accommodate for the free space in center)
+    each box can be covered when clicked on (have options: bingo dot, X, hippo, etc)
+    create a running "done" list of the completed tasks attached to saved card(to bask in the dopamine!)
+    
