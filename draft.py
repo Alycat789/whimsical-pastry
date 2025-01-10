@@ -57,7 +57,7 @@ def create_button(i):
         for c in range(0, i):
             buttons[count] = Button(card, text = res[count], width = 30, height = 12, background = theme, foreground = "white", activebackground = "yellow").grid(row = r, column = c)
             # the below function isn't working
-            # tried: partial(click, buttons[count]), command = lambda x=x: click(x) [in the Button creation above where x = button[count]], and separating it into it's own function with the lambda [see above function]
+            # tried: functools.partial(click, buttons[count]), command = lambda x=x: click(x) [in the Button creation above where x = button[count]], and separating it into it's own function with the lambda [see above function]
             # theres a stack overflow post that says the lambda should work, but the example has the program manipulating the button grid from within a frame. gotta read up on frames before proceeding.
             # title of article: tkinter creating buttons in for loop passing command arguments (3 posts down)
             event(buttons[count])
